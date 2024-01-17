@@ -1,11 +1,11 @@
-import { Forms } from "./components/Forms";
-import { GlobalStyles } from "./styles/GlobalStyles";
+import { Forms } from './components/Forms'
+import { GlobalStyles, ResetCSS } from './styles'
 
 function App() {
-
   return (
     <>
-    <GlobalStyles />
+      <ResetCSS/>
+      <GlobalStyles />
       <Forms />
     </>
   )
