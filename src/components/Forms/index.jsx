@@ -1,13 +1,13 @@
-import { StyledForms, StyledInput, SytledButton } from "./styles";
+import { StyledForms, StyledInput, SytledButton } from './styles'
 
 export const Forms = () => {
   return (
     <StyledForms>
-      <h1>WeatherApp</h1>
+      <h1>WeatherApp 🇧🇷</h1>
       <div>
-        <StyledInput placeholder="City or Zip-Code"/>
+        <StyledInput placeholder="City" />
         <SytledButton>Search</SytledButton>
       </div>
     </StyledForms>
-  );
-};
+  )
+}
