@@ -1,2 +1,2 @@
-export * from './GlobalStyles'
-export * from './ResetCSS'
+export { default as GlobalStyles } from './GlobalStyles'
+export { default as ResetCSS } from './ResetCSS'
