@@ -1,6 +1,6 @@
 import { createGlobalStyle } from "styled-components";
 
-const GlobalStyles = createGlobalStyle`
+export const GlobalStyles = createGlobalStyle`
     * {
         margin: 0;
         padding: 0;
@@ -14,10 +14,21 @@ const GlobalStyles = createGlobalStyle`
 
     input, button {
         font-family: "Roboto", sans-serif;
-        padding: 8px;
+        padding: 15px;
         font-weight: 700;
-        font-size: 24px;
+        font-size: 20px;
+    }
+
+    input:focus{
+        background: #1c1c1c;
+        color: #ffffff;
+    }
+
+    button:hover{
+        background: #054f77;
+    }
+
+    button:active{
+        background: #1c1c1c;
     }
 `;
-
-export default GlobalStyles

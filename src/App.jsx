@@ -1,10 +1,10 @@
-import { Forms } from './components/Forms'
-import { GlobalStyles, ResetCSS } from './styles'
+import { Forms } from "./components/Forms";
+import { GlobalStyles } from "./styles/GlobalStyles";
 
 function App() {
+
   return (
     <>
-      <ResetCSS/>
       <GlobalStyles />
       <Forms />
     </>
